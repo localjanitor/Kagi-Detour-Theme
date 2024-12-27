@@ -3,7 +3,7 @@
 **Screenshots:**
 <img src="https://github.com/Netri0/Kagi-Detour-Theme/blob/main/screenshots/Desktop.png"
      alt="Desktop">
-<img src="https://github.com/Netri0/Kagi-Detour-Theme/blob/main/screenshots/Mobile.jpg"
+<img src="https://github.com/Netri0/Kagi-Detour-Theme/blob/main/screenshots/Mobile-Android.jpg"
      alt="Mobile" width="285">
 
 Directions:
