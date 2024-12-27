@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;1,500&display=swap');
+
+/* Top Font */
+:root {
+/*  --color-search-input: var(--cheatsh_ef234); */
+  --font-main: 'Figtree', 'lufga', sans-serif;
+  --graphite-950: #1c1c1c;
+  --purple-300: #FFE6E0; /* Very light peach, soft and subtle */
+  --purple-400: #FFC6B8; /* Light orange-pink, warm and inviting */
+  --purple-500: #FF9F80; /* Medium orange, vibrant but not overwhelming */
+  --purple-600: #FF7A4D; /* Bright orange, bold and energetic */
+  --purple-800: #DE5833; /* DuckDuckGo's reddish-orange, strong and striking */
+  --purple-900: #B43F1F; /* Dark red-orange, rich and elegant */
+}
+
+/* Borders Off & Main Font */
+.__sri-title a,
+.__srgi-title a,
+.__sri-title .__sri_title_link,
+.list-widget .widgetContent .widgetItemTitle,
+.search-result,
+.sri-group {
+  border-bottom: none;
+  font-family: 'Proxima Nova', 'Figtree', sans-serif;
+  font-weight: 500;
+}
+
+.inline-content + .search-result {
+  border-top: none;
+}
+
+/* Bubble around Search Results (Mobile) */
+@media (max-width: 768px) {
+  .sri-group,
+  .search-result,
+  .chat_bubble {
+      background-color: #262626;
+      border-radius: 20px;
+      margin-bottom: 1.3rem;
+  }
+  html {
+    font-size: 94%;
+  }
+}
+
+/* Quick Peek Results Font Size */
+#quickPeekResults summary {
+    font-size: 1rem;
+}
+
+/* Universal Font Size */
+@media (min-width: 1024px) { /* Adjust the width as needed for your definition of "desktop" */
+  html {
+    font-size: 107%;
+  }
+}
+
+/* Search Widgets Title Font Size */
+.inlineHeader {
+  font-size: 1rem;
+}
+
+/* Quick Peek - Curved Line */
+#quickPeekResults .inlineHeader, #quickPeekResults details {
+    border-bottom: 2px solid #474747;
+    border-radius: 6px;
+}
+
+/* Interesting Finds - Font Size */
+.widget-simple .widgetItemTitle .__title-text {
+  font-size: 1rem;
+}
+
+/* Date Results - Color */
+.__sri-time {
+/*  background-color: #383838; */
+/*  color: #202933; */
+}
+
+/* Wikipedia Sidebar Underline */
+.wikipediaResult a {
+  border-bottom: 0px solid var(--result-item-title-border);
+}
+
+.wikipediaResult .wiki-title a, .wikipediaResult .wiki-title a:visited {
+  border-bottom: 0px
+}
+
+/* Date Results (Recent) - Color */
+.__sri-time.--new {
+  background-color: #90caf9;
+  color: #0d47a1;
+}
+
+/* Dark Theme */
+.theme_moon_dark {
+  --color-search-input: #1c1c1c;
+}
