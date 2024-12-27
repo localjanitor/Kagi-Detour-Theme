@@ -6,6 +6,7 @@ A custom theme that takes inspiration from DuckDuckGo w/ a few touches here & th
 
 ### Desktop View
 <img src="https://github.com/Netri0/Kagi-Detour-Theme/blob/main/screenshots/Desktop.png" alt="Desktop">
+
 ### Mobile View
 <img src="https://github.com/Netri0/Kagi-Detour-Theme/blob/main/screenshots/Mobile-Android.jpg" alt="Mobile Interface" width="285">
 
