@@ -1,4 +1,4 @@
-# Kagi <span style="background: linear-gradient(45deg, #FF6B6B, #4ECDC4, #45B7D1, #96E6B3); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Detour</span> Theme
+Kagi <span style="background: linear-gradient(45deg, #FF6B6B, #4ECDC4, #45B7D1, #96E6B3); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Detour</span> Theme
 
 A custom theme that takes inspiration from DuckDuckGo w/ a few touches here & there. This was made with the "Kagi Dark (Default)" theme in mind, so if anything looks off in the other themes, you know why.
 
