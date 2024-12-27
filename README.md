@@ -1,4 +1,4 @@
-# Kagi D•E•T•O•U•R Theme
+# 🫥 Kagi D•E•T•O•U•R Theme
 
 A custom theme that takes inspiration from DuckDuckGo w/ a few touches here & there. This was made with the "Kagi Dark (Default)" theme in mind, so if anything looks off in the other themes, you know why.
 
