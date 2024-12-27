@@ -2,7 +2,7 @@
 
 A custom theme that takes inspiration from DuckDuckGo w/ a few touches here & there. This was made with the "Kagi Dark (Default)" theme in mind, so if anything looks off in the other themes, you know why.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Desktop View
 <img src="https://github.com/Netri0/Kagi-Detour-Theme/blob/main/screenshots/Desktop.png" alt="Desktop">
@@ -10,7 +10,7 @@ A custom theme that takes inspiration from DuckDuckGo w/ a few touches here & th
 ### Mobile View
 <img src="https://github.com/Netri0/Kagi-Detour-Theme/blob/main/screenshots/Mobile-Android.jpg" alt="Mobile Interface" width="285">
 
-## 🚀 Installation
+## Installation
 
 1. Access the theme CSS: [theme.css](https://raw.githubusercontent.com/Netri0/Kagi-Detour-Theme/refs/heads/main/theme.css)
 2. Copy the entire CSS content
