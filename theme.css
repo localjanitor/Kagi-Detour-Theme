@@ -31,13 +31,22 @@
 
 /* Bubble around Search Results (Mobile) */
 @media (max-width: 768px) {
+  /* Light Theme (default) */
   .sri-group,
   .search-result,
   .chat_bubble {
-      background-color: #262626;
-      border-radius: 20px;
-      margin-bottom: 1.3rem;
+    background-color: #FFFFFF; /* Light background */
+    border-radius: 20px;
+    margin-bottom: 1.3rem;
   }
+
+  /* Dark Theme override */
+  .theme_moon_dark .sri-group,
+  .theme_moon_dark .search-result,
+  .theme_moon_dark .chat_bubble {
+    background-color: #262626; /* Dark background */
+  }
+
   html {
     font-size: 94%;
   }
@@ -49,7 +58,7 @@
 }
 
 /* Universal Font Size */
-@media (min-width: 1024px) {
+@media (min-width: 1024px) { /* Adjust the width as needed for your definition of "desktop" */
   html {
     font-size: 107%;
   }
@@ -62,7 +71,7 @@
 
 /* Quick Peek - Curved Line */
 #quickPeekResults .inlineHeader, #quickPeekResults details {
-    border-bottom: 2px solid #474747;
+    border-bottom: 1.5px solid #474747;
     border-radius: 6px;
 }
 
@@ -94,5 +103,48 @@
 
 /* Dark Theme */
 .theme_moon_dark {
-  --color-search-input: #1c1c1c;
+  --color-search-input: #18181a;
+}
+
+/* Light Theme (default) */
+.__sri-title a,
+.__srgi-title a,
+.__sri-title .__sri_title_link,
+.list-widget .widgetContent .widgetItemTitle,
+.search-result,
+.sri-group {
+  color: #0a5dd4; /* Light theme color */
+}
+
+/* Dark Theme Override */
+.theme_moon_dark .__sri-title a,
+.theme_moon_dark .__srgi-title a,
+.theme_moon_dark .__sri-title .__sri_title_link,
+.theme_moon_dark .list-widget .widgetContent .widgetItemTitle,
+.theme_moon_dark .search-result,
+.theme_moon_dark .sri-group {
+  color: #99c3ff; /* Dark theme color */
+}
+
+/* Light Theme (Default) */
+._0_results_summary_box.__0_show {
+    display: block;
+    color: #FFFFFF;
+    background-color: #37638e;
+    border: 3.5px solid #ffb319;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+._0_results_summary_links .__domain-name {
+    background-color: #FFFFFF;
+}
+
+/* Dark Theme */
+.theme_moon_dark ._0_results_summary_box.__0_show {
+    background-color: #172027;
+}
+
+.theme_moon_dark ._0_results_summary_links .__domain-name {
+    background-color: #415a77;
 }
